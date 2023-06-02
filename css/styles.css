@@ -1,0 +1,230 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-weight: 400;
+    src: url('../fonts/play-v17-latin-regular.woff2') format('woff2');
+
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-weight: 700;
+    src: url('../fonts/play-v17-latin-700.woff2') format('woff2');
+
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2');
+
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+
+}
+
+:root {
+    --color-brend-light: #2B7FFF;
+    --color-brend-dark: #011C44;
+    --color-brend-basic: #ffffff;
+    --color-secondary-one: #4A4A4A;
+    --color-secondary-two: #4A4A4A;
+    --color-secondary-three: #747272;
+    --color-secondary-four: #011F4A;
+    --color-secondary-five: #FFD02B;
+    --color-secondary-six: #000000;
+}
+
+/* Base */
+body {
+    color: var(--color-brend-dark);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Button */
+.button {
+    color: var(--color-brend-basic);
+    font-size: 600;
+    background-color: var(--color-brend-light);
+    border: 2px solid var(--color-brend-light);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-brend-dark);
+    background-color: transparent;
+}
+
+.free-consultation {
+    color: var(--color-secondary-one);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Link */
+.link {
+    color: var(--color-brend-dark);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-brend-light);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+/* Hero section */
+.name-hero-title {
+    font-size: 18px;
+    line-height: 1.17px;
+}
+
+.hero-title {
+    color: var(--color-brend-light);
+    font-family: Play, sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 1.23;
+}
+
+/* Representation-section */
+.representation-title {
+    color: var(--color-brend-dark);
+    font-family: Play, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.17;
+}
+
+.representation-title .accent {
+    color: var(--color-brend-light);
+    text-transform: capitalize
+}
+
+.representation-text {
+    font-size: 22px;
+    line-height: 1.73;
+}
+
+.representation-text .accent {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: capitalize
+}
+
+/* Advantage-section */
+.section-title {
+    color: var(--color-brend-dark);
+    font-family: Play, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section-title .accent {
+    color: var(--color-brend-light);
+}
+
+.adventege-text {
+    color: var(--color-secondary-six);
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+}
+
+/* Procedures-section */
+.procedures-title {
+    color: var(--color-brend-basic);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.18;
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
+
+}
+
+/* Contact-section */
+.contact-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.contact-text .accent {
+    color: var(--color-brend-light);
+}
+
+.privacy-policy {
+    color: var(--color-secondary-three);
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center
+}
+
+/* Footer */
+.footer-item {
+    background-color: var(--color-brend-dark);
+}
+
+.footer-link {
+    color: var(--color-brend-basic);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--color-brend-light);
+}
+
+.address-link {
+    color: var(--color-brend-basic);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: var(--color-brend-light);
+}
+
+.address-copyright {
+    color: var(--color-secondary-three);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+}
